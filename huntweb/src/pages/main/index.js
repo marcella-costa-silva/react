@@ -11,7 +11,6 @@ export default class Main extends Component {
     page: 1
   }
 
-  // Executado assim que o componente for executado em tela.
   componentDidMount() {
     this.loadProducts()
   }
