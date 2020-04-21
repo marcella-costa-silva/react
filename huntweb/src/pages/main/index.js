@@ -49,7 +49,7 @@ export default class Main extends Component {
             <p>{product.description}</p>
 
             {/* <a href='#'>Acessar</a> */}
-            <Link to={`/products/${products._id}`}>Acessar</Link>
+            <Link to={`/products/${product._id}`}>Acessar</Link>
           </article>
         ))}
 
